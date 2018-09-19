@@ -1,0 +1,28 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1533548563888" stop="1533548563928">
+  <name>wwjiekoukuangjia.com.check_jg</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1533548563888" status="broken" stop="1533548563928">
+      <name>test_check</name>
+      <failure>
+        <message>FixtureLookupError: ('response', &lt;FixtureRequest for &lt;Function 'test_check'&gt;&gt;)</message>
+        <stack-trace>file F:\PycharmProjects\wwjiekoukuangjia\com\checkdata.py, line 3
+  def test_check(response, expect):
+E       fixture 'response' not found
+&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_xml_attribute, record_xml_property, recwarn, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+F:\PycharmProjects\wwjiekoukuangjia\com\checkdata.py:3</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7340-MainThread"/>
+        <label name="host" value="DESKTOP-Q5012MR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
